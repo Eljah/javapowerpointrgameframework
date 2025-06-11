@@ -1,6 +1,7 @@
 package com.example.ppgame.framework.interactive;
 
 import org.apache.poi.xslf.usermodel.XSLFTextBox;
+import com.example.ppgame.framework.PowerPointRenderer;
 
 import java.awt.Rectangle;
 import java.io.IOException;
