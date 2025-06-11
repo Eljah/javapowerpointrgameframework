@@ -12,8 +12,8 @@ import java.io.InputStream;
 import java.io.FileOutputStream;
 
 public class PowerPointRenderer {
-    private final XMLSlideShow ppt;
-    private XSLFSlide currentSlide;
+    protected final XMLSlideShow ppt;
+    protected XSLFSlide currentSlide;
 
     public PowerPointRenderer() {
         ppt = new XMLSlideShow();

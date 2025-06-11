@@ -23,6 +23,18 @@ mvn exec:java -Dexec.mainClass="com.example.ppgame.example.ExampleGame"
 
 This will output a PowerPoint presentation where each frame is a slide.
 
+## Interactive API Example
+
+`InteractivePowerPointRenderer` allows adding simple VBA macros and clickable
+shapes. See `InteractiveExampleGame` for a minimal usage example:
+
+```bash
+mvn exec:java -Dexec.mainClass="com.example.ppgame.example.InteractiveExampleGame"
+```
+
+The resulting file is `interactive.pptm` where the button on the slide runs a
+macro.
+
 ## Running Tests
 
 The project includes a JUnit test that generates a presentation and
